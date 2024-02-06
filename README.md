@@ -1,40 +1,36 @@
-Below are the steps to get your plugin running. You can also find instructions at:
+# Figma Polygons Creator Plugin
 
-  https://www.figma.com/plugin-docs/plugin-quickstart-guide/
+This is a Figma plugin that allows users to create a specified number of polygons.
 
-This plugin template uses Typescript and NPM, two standard tools in creating JavaScript applications.
+## Features
 
-First, download Node.js which comes with NPM. This will allow you to install TypeScript and other
-libraries. You can find the download link here:
+-   Create a specified number of polygons.
+-   Cancel the creation process.
 
-  https://nodejs.org/en/download/
+## How to Use
 
-Next, install TypeScript using the command:
+1. Open the plugin in Figma.
+2. Enter the number of polygons you want to create in the input field.
+3. Click the 'Create' button to start the creation process.
+4. If you want to cancel the creation process, click the 'Cancel' button.
 
-  npm install -g typescript
+## Installation
 
-Finally, in the directory of your plugin, get the latest type definitions for the plugin API by running:
+To install this plugin:
 
-  npm install --save-dev @figma/plugin-typings
+1. Clone this repository.
+2. Open Figma.
+3. Go to Plugins > Development > New Plugin.
+4. Click on 'Click to choose a manifest.json file' and select the manifest.json file in the cloned repository.
 
-If you are familiar with JavaScript, TypeScript will look very familiar. In fact, valid JavaScript code
-is already valid Typescript code.
+## Credits
 
-TypeScript adds type annotations to variables. This allows code editors such as Visual Studio Code
-to provide information about the Figma API while you are writing code, as well as help catch bugs
-you previously didn't notice.
+Build with the help of a video series published by [Figma](https://www.figma.com/) on their [YouTube channel](https://www.youtube.com/playlist?list=PLXDU_eVOJTx5YBAszyuOTyxlgIxkQVyii).
 
-For more information, visit https://www.typescriptlang.org/
+## Contributing
 
-Using TypeScript requires a compiler to convert TypeScript (code.ts) into JavaScript (code.js)
-for the browser to run.
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-We recommend writing TypeScript code using Visual Studio code:
+## License
 
-1. Download Visual Studio Code if you haven't already: https://code.visualstudio.com/.
-2. Open this directory in Visual Studio Code.
-3. Compile TypeScript to JavaScript: Run the "Terminal > Run Build Task..." menu item,
-    then select "npm: watch". You will have to do this again every time
-    you reopen Visual Studio Code.
-
-That's it! Visual Studio Code will regenerate the JavaScript file every time you save.
+[MIT](https://choosealicense.com/licenses/mit/)
